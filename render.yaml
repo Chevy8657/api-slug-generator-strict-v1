@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: api-slug-generator-v1
+    env: node
+    plan: free
+    buildCommand: yarn install --frozen-lockfile || yarn install
+    startCommand: node server.js
+    autoDeploy: true
+    healthCheckPath: /health
