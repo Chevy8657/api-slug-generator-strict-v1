@@ -1,0 +1,15 @@
+{
+  "name": "api-slug-generator-v1",
+  "version": "1.0.0",
+  "description": "Stateless utility API that generates a URL-safe slug from input text.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
